@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ## Google Earth Engine (GEE) Scripts
 
 This project includes a Google Earth Engine script hosted at:
-[Open the GEE script here](https://code.earthengine.google.com/39f428804ec67a3bf0b22b746e968411)
+[Open the GEE script here](https://code.earthengine.google.com/7eca684ad1c94cf85694293ca8c77c23)
 
 ### Accessing and running the script
 
