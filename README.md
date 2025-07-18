@@ -25,15 +25,18 @@ pip install -r requirements.txt
 ## Google Earth Engine (GEE) Scripts
 
 This project includes a Google Earth Engine script hosted at:
-[Open the GEE script here](https://code.earthengine.google.com/7eca684ad1c94cf85694293ca8c77c23)
+[Open the GEE script here](https://code.earthengine.google.com/978e963cffcdf94f9502d9399da77497)
 
 ### Accessing and running the script
 
 1. Open the script link above in the Google Earth Engine Code Editor.
 
-2. Make sure you have access to the assets used, located in the `fromglc` project:  
-- `projects/fromglc/assets/focus_counties`  
-- `projects/fromglc/assets/gadm41_CHN_shp`
+2. Import the `focus-counties.csv` file from this repository into your Google Earth Engine assets and name it `focus_counties`.  
+
+3. In your GEE script, adapt the import statement as follows:
+   ```javascript
+   var countiesList = ee.FeatureCollection("projects/fromglc/assets/focus_counties");
+   ```
 
 3. Run the script to visualize suitability maps and export outputs to your Google Drive.
 
