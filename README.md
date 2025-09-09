@@ -25,7 +25,10 @@ pip install -r requirements.txt
 ## Google Earth Engine (GEE) Scripts
 
 This project includes a Google Earth Engine script hosted at:
-[Open the GEE script here](https://code.earthengine.google.com/978e963cffcdf94f9502d9399da77497)
+[Sampling 1](https://code.earthengine.google.com/8a5ec307976e95411467d00c411095dd)
+[Sampling 2](https://code.earthengine.google.com/21336bb49b7734bce6d2e186ac416349)
+[Landcover](https://code.earthengine.google.com/1be46db2d38545db6dd1352aeb33e022)
+
 
 ### Accessing and running the script
 
@@ -40,5 +43,26 @@ This project includes a Google Earth Engine script hosted at:
 
 3. Run the script to visualize suitability maps and export outputs to your Google Drive.
 
+## Repository Structure 
+
+solar-data-china/
+│
+├── data/ # Datasets
+│ ├── raw_data/         # Original raw datasets
+│ └── data_processed/   # Cleaned and preprocessed datasets
+│
+├── GEE_exports/        # Outputs exported from Google Earth Engine
+├── Google_my_Maps/     # Manual mappings created with Google My Maps
+│
+├── scripts/            # Python scripts 
+│ ├── analysis/         # Comparative analysis of datasets 
+│ ├── data_processing/  # Data cleaning, preprocessing, and transformations
+│ ├── mapdata/          # Administrative boundaries and shapefile handling
+│ ├── model/            # Training and evaluation of ML models
+│ ├── satellite_image/  # Preprocessing of satallite_image
+│ └── scan/             # Detection and segmentation experiments
+│
+├── requirements.txt # Python dependencies
+└── README.md # Main documentation
 
 
