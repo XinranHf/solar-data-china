@@ -24,3 +24,4 @@ segmentation-models-pytorch
 tifffile
 pyrosm
 py7zr
+xml.etree.ElementTree
